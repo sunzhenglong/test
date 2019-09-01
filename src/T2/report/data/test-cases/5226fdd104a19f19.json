@@ -1,0 +1,92 @@
+{
+  "uid" : "5226fdd104a19f19",
+  "name" : "test_8",
+  "fullName" : "test_1#test_8",
+  "historyId" : "2588b602c853a291dd3fec024efaad8a",
+  "time" : {
+    "start" : 1566181846709,
+    "stop" : 1566181846710,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "字符串相加：'giao哥'，'牛逼'",
+      "time" : {
+        "start" : 1566181846709,
+        "stop" : 1566181846709,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "str1",
+        "value" : "'giao哥'"
+      }, {
+        "name" : "str2",
+        "value" : "'牛逼'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "57e3ab4e613c255c",
+      "name" : "stdout",
+      "source" : "57e3ab4e613c255c.txt",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "模块四"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "sunzl"
+  }, {
+    "name" : "thread",
+    "value" : "7952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5226fdd104a19f19.json",
+  "parameterValues" : [ ]
+}

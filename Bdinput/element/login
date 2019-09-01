@@ -1,0 +1,26 @@
+---
+#键值对的形式保存
+#例如：
+## 头像的xpath
+#tou: //android.widget.Button[@content-desc="帐户及设置"]
+##账户及设置
+##设置的id
+#seting: com.tencent.mobileqq:id/settings
+#切换输入法
+a1: com.baidu.input:id/setdefault   #id
+#输入法选择框
+a2: miui:id/select_dialog_listview   #id
+#百度输入法选择
+a3: android.widget.LinearLayout   #class (index3)
+#选中
+#a4: android.widget.RadioButton   #class
+#完成
+a5: com.baidu.input:id/finishsetting  #id
+
+a6: com.baidu.input:id/ID_PULLTOREFRESH_GRIDVIEW    #id
+#页面标题
+a7: com.baidu.input:id/banner_title   #id
+#选择启用
+a8: com.baidu.input:id/apply_btn   #id
+#点击搜索
+a9: com.baidu.input:id/banner_search    #id    #搜索按键id

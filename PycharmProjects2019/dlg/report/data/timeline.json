@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "sunzl",
+    "children" : [ {
+      "name" : "6876-MainThread",
+      "children" : [ {
+        "name" : "test_0",
+        "uid" : "72086e8a4107949",
+        "parentUid" : "07140b3ff1a5c25e074ac2b107d332d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1565577337992,
+          "stop" : 1565577337992,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07140b3ff1a5c25e074ac2b107d332d8"
+    } ],
+    "uid" : "aafcbfffea4aa11c844ece1b1c1506c2"
+  } ]
+}

@@ -1,0 +1,84 @@
+{
+  "uid" : "97a8e40219412b7a",
+  "name" : "test_2[1-2]",
+  "fullName" : "test_03#test_2[1-2]",
+  "historyId" : "81656e9d8f9000e32992e88359e41aa2",
+  "time" : {
+    "start" : 1565664406694,
+    "stop" : 1565664406694,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "y1 = 1, y2 = 2\n\n    @pytest.mark.parametrize(\"y1,y2\",d2)\n    def test_2(y1,y2):\n        print(f\"y1的值是{y1}\")\n        print(f\"y2的值是{y2}\")\n>       assert y1 == y2\nE       assert 1 == 2\n\ntest_03.py:170: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 1 == 2",
+    "statusTrace" : "y1 = 1, y2 = 2\n\n    @pytest.mark.parametrize(\"y1,y2\",d2)\n    def test_2(y1,y2):\n        print(f\"y1的值是{y1}\")\n        print(f\"y2的值是{y2}\")\n>       assert y1 == y2\nE       assert 1 == 2\n\ntest_03.py:170: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7f1c7acb5fe9fc1e",
+      "name" : "stdout",
+      "source" : "7f1c7acb5fe9fc1e.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_03"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "sunzl"
+  }, {
+    "name" : "thread",
+    "value" : "8752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "y1",
+    "value" : "1"
+  }, {
+    "name" : "y2",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "97a8e40219412b7a.json",
+  "parameterValues" : [ "1", "2" ]
+}

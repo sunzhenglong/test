@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Aug 13 10:46:46 SGT 2019","Tue Aug 13 10:46:46 SGT 2019","0","","test_03","","","","test_2[1-2]",""
+"passed","Tue Aug 13 10:46:46 SGT 2019","Tue Aug 13 10:46:46 SGT 2019","1","","test_03","","","","test_2[2-2]",""
+"failed","Tue Aug 13 10:46:46 SGT 2019","Tue Aug 13 10:46:46 SGT 2019","1","","test_03","","","","test_2[5-6]",""
